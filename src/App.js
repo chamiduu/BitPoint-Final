@@ -11,7 +11,6 @@ import "./App.css";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import Home from "./Components/Home/Home";
-import LeaderBoard from "./Components/Leaderboard/Chart";
 import Nav from "./Components/Navbar";
 import NotFound from "./Components/NotFound";
 import OnlineTest from "./Components/OnlineTest/TestPage";
@@ -41,7 +40,6 @@ export default function App({ location }) {
               <Route exact path="/" component={Home} />
               <Route path="/tasks" component={TaskPage} />
               <Route path="/courses" component={OnlineTest} />
-              <Route path="/leaderboard" component={LeaderBoard} />
               <Route path="/contact" component={Contact} />
 
               <Route path="/task/:id" component={Task} />

@@ -4,7 +4,7 @@ import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
-import { CardMedia, IconButton } from "@material-ui/core";
+import { IconButton } from "@material-ui/core";
 import Tooltip from "@material-ui/core/Tooltip";
 import CodeIcon from "@material-ui/icons/Code";
 import BrushIcon from "@material-ui/icons/Brush";
@@ -227,6 +227,7 @@ export default function TaskCard() {
           <img
             className={classes.img}
             src="https://images.unsplash.com/photo-1542903660-eedba2cda473?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+            alt=""
           />
           <div className={classes.details}>
             <CardContent className={classes.content}>

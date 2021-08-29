@@ -2,9 +2,7 @@ import React, { useEffect }  from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
-import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
-import Avatar from '@material-ui/core/Avatar';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography'
 import { Grid } from '@material-ui/core';
@@ -181,14 +179,7 @@ export default function OC() {
     </Card>
 
     </Grid>
-    <Typography variant="h4" style={{marginTop: '50px', marginLeft: '110px'}}>Organizing Committee</Typography>
-    <Grid  xl={12} md={12} lg={12} container direction="row" justify="space-around" alignItems="center" className={classes.OClist}>
-    {OCdata.map((member, index) => (
-      <Card className={classes.OClistItem} elevation='6' data-aos="zoom-in-up">
-        <Typography>{member.name}</Typography>
-      </Card>
-    ))}
-    </Grid>
+    
     </div>
     
   );

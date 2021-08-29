@@ -3,7 +3,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Grid, Typography, Button } from '@material-ui/core'; 
 import theme from '../../theme'  
 import {ReactComponent as Logo} from '../../Img/hero.svg';
-import Countdown, { doubleDigit } from 'react-downcount'
 
 
 export default function Header() {

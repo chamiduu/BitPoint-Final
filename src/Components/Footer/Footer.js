@@ -4,9 +4,8 @@ import FooterContact from "./FooterContact";
 import { NavLink, useParams } from "react-router-dom";
 import "../../App.css";
 
-const Footer = ({}) => {
+const Footer = () => {
   const location = useLocation();
-  let { id } = useParams();
   return (
     location.pathname !== "/tasks" && location.pathname !== "/courses" && location.pathname !== "/task/:id" && (
       <footer>
@@ -51,17 +50,6 @@ const Footer = ({}) => {
           }}
         >
           Online Tests
-        </NavLink>
-        <NavLink
-          className="menuButton"
-          to="/leaderboard"
-          activeStyle={{
-            fontWeight: "bold",
-            fontSize: "20px",
-            color: "#3ed1b8",
-          }}
-        >
-          LeaderBoard
         </NavLink>
         <NavLink
           className="menuButton"

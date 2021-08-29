@@ -9,7 +9,6 @@ import MenuIcon from "@material-ui/icons/Menu";
 import { NavLink } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import logoGIF from "../Img/BITS-logo-w.gif";
-import NavBg from "../Img/bg.svg";
 
 const useStyles = makeStyles(() => ({
   header: {
@@ -39,18 +38,18 @@ const useStyles = makeStyles(() => ({
   menuButton: {
     fontFamily: "Titillium Web, sans-serif",
     fontWeight: 700,
-    size: "25px",
+    size: "35px",
     marginLeft: "38px",
     textDecoration: "none",
-    color: "#fff",
+    color: "#272727",
   },
   mobileMenuButton: {
     fontFamily: "Titillium Web, sans-serif",
     fontWeight: 700,
-    size: "18px",
+    size: "24px",
     marginLeft: "38px",
     textDecoration: "none",
-    color: "#fff",
+    color: "#272727",
   },
   toolbar: {
     display: "flex",
@@ -59,14 +58,15 @@ const useStyles = makeStyles(() => ({
   drawerContainer: {
     width: "200px",
     height: "100%",
-    backgroundColor: "#072540",
+    background: "#ffffff",
+    backdropFilter: "blur(20px)",
     display: "flex",
     flexDirection: "column",
     justifyContent: "space-evenly",
   },
 
   menu: {
-    color: "#3ed1b8",
+    color: "#0363ff",
   },
 }));
 
@@ -75,7 +75,6 @@ export default function Nav() {
     header,
     menuButton,
     menu,
-    headerActive,
     mobileMenuButton,
     toolbar,
     drawerContainer,
@@ -181,7 +180,7 @@ export default function Nav() {
           exact
           activeStyle={{
             fontWeight: "bold",
-            color: "#3ed1b8",
+            color: "#0363ff",
           }}
         >
           Home
@@ -192,7 +191,7 @@ export default function Nav() {
           to="/tasks"
           activeStyle={{
             fontWeight: "bold",
-            color: "#3ed1b8",
+            color: "#0363ff",
           }}
         >
           Tasks
@@ -202,7 +201,7 @@ export default function Nav() {
           to="/courses"
           activeStyle={{
             fontWeight: "bold",
-            color: "#3ed1b8",
+            color: "#0363ff",
           }}
         >
           Courses
@@ -213,7 +212,7 @@ export default function Nav() {
           to="/contact"
           activeStyle={{
             fontWeight: "bold",
-            color: "#3ed1b8",
+            color: "#0363ff",
           }}
         >
           Contact
@@ -244,7 +243,7 @@ export default function Nav() {
           activeStyle={{
             fontWeight: "bold",
             fontSize: "20px",
-            color: "#3ed1b8",
+            color: "#0363ff",
           }}
         >
           Home
@@ -255,7 +254,7 @@ export default function Nav() {
           activeStyle={{
             fontWeight: "bold",
             fontSize: "20px",
-            color: "#3ed1b8",
+            color: "#0363ff",
           }}
         >
           Tasks
@@ -266,7 +265,7 @@ export default function Nav() {
           activeStyle={{
             fontWeight: "bold",
             fontSize: "20px",
-            color: "#3ed1b8",
+            color: "#0363ff",
           }}
         >
           Courses
@@ -278,7 +277,7 @@ export default function Nav() {
           activeStyle={{
             fontWeight: "bold",
             fontSize: "20px",
-            color: "#3ed1b8",
+            color: "#0363ff",
           }}
         >
           Contact
