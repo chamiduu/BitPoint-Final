@@ -1,0 +1,19 @@
+[
+    {
+      "index": 0,
+      "name": "Online Test 1",
+      "description": "Complete this online test based on modern topics of ICT and gain marks",
+      "marks": "20",
+      "link": "https://docs.google.com/forms/d/e/1FAIpQLSfs37-yGfBOA2vNVJVU9r0RgqUsASF-o6hg2rxM83fbzKy_bw/viewform?embedded=true"
+},
+
+{
+    "index": 1,
+    "name": "Online Test 2",
+    "description": "Complete this online test based on modern topics of ICT and gain marks",
+    "marks": "20",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSfs37-yGfBOA2vNVJVU9r0RgqUsASF-o6hg2rxM83fbzKy_bw/viewform?embedded=true"
+}
+
+]
+    
