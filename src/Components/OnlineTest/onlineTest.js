@@ -167,6 +167,11 @@ export default function TaskCard() {
   const [value, setValue] = React.useState("All");
   const [data, setData] = useState(taskDetails);
 
+  //search for article name 
+
+
+
+
   useEffect(() => {
     Aos.init({ duration: 500 });
   }, []);
@@ -183,6 +188,9 @@ export default function TaskCard() {
       setData(taskDetails);
     }
   };
+
+  //search blog items
+  
 
   return (
     <div className="eee">
@@ -273,7 +281,7 @@ export default function TaskCard() {
                 to={course.link}
                 className={classes.button}
               >
-                View Task
+                View Course
               </Button>
             </div>
           </div>
