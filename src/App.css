@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -46,12 +46,12 @@ iframe {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #3ed1b8;
+  background: #51c8ff;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #37b19c;
+  background: #48b0e0;
 }
 
 .mainbox {
