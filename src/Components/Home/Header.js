@@ -86,7 +86,7 @@ export default function Header() {
               align="left"
               style={{ marginBottom: "50px", fontWeight: "bold" }}
             >
-              BITS 2021
+              BitPoint
             </Typography>
 
             <Typography
