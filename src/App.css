@@ -99,7 +99,7 @@ iframe {
 
 a {
   text-decoration: none;
-  color: #3ed1b8;
+  color: #2b7cff;
 }
 
 a:hover {
@@ -109,7 +109,8 @@ a:hover {
 
 footer {
   height: 260px;
-  background-color: #06192e;
+  background-color: #ffffffb0;
+  backdrop-filter: blur(20px);
   
   display: flex;
   box-sizing: border-box;
@@ -145,18 +146,18 @@ span.question {
   display: block;
   font-size: 15px;
   margin: 7px 0;
-  color: rgb(255, 255, 255);
+  color: rgb(26, 26, 26);
 }
 
 p.answer {
   /* max-width: 500px; */
-  color: #ffffff;
+  color: #030303;
 }
 
 span#copyrights {
   grid-column: 1/4;
   justify-self: center;
-  color: #969696;
+  color: #555555;
 }
 
 .footer-contact svg:first-child {
@@ -179,6 +180,7 @@ span#copyrights {
   .footer-nav {
     flex-direction: row;
     justify-content: space-evenly;
+
   }
   .footer-nav a {
     padding: 10px;
@@ -213,6 +215,10 @@ span#copyrights {
   text-decoration: "none";
   color: "#fff";
 }
+
+.footer-nav p {
+    color: #1165c0;
+  }
 @media screen and (max-width: 650px) {
   .mainbox {
     margin: auto;
@@ -225,7 +231,10 @@ span#copyrights {
   .footer-nav {
     max-width: 300px;
     flex-wrap: wrap;
+    
   }
+
+  
   .msg {
     top: 200px;
   }
@@ -246,15 +255,3 @@ span#copyrights {
   }
 }
 
-.countdown {
-  margin-top: -20px;
-  margin-bottom: 40px;
-  font-size: 2em;
-  font-weight: bolder;
-  background: #10EBCE;
-background: -webkit-linear-gradient(to right, #10EBCE 0%, #18ABF5 100%);
-background: -moz-linear-gradient(to right, #10EBCE 0%, #18ABF5 100%);
-background: linear-gradient(to right, #10EBCE 0%, #18ABF5 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-}
