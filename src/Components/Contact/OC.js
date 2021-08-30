@@ -15,55 +15,51 @@ import "aos/dist/aos.css"
 const useStyles = makeStyles(() => ({
   root: {
     width: 345,
-    height: '150px',
-    marginBottom: '50px',
-    marginLeft: '50px',
-    marginRight: '50px',
-    background: 'linear-gradient(144deg, #275d8ccf, #21466766)',
-    backdropFilter: 'blur(10px)',
+    height: "150px",
+    marginBottom: "50px",
+    marginLeft: "50px",
+    marginRight: "50px",
+    background: "#edf3fc",
     color: theme.palette.primary.contrastText,
-    borderRadius: '15px',
-    [theme.breakpoints.down('xs')]: {
-      marginLeft: '10px',
-    marginRight: '10px',
-  },
-
+    borderRadius: "15px",
+    [theme.breakpoints.down("xs")]: {
+      marginLeft: "10px",
+      marginRight: "10px",
+    },
   },
   OClistItem: {
     width: 345,
-    height: '50px',
-    marginBottom: '10px',
-    marginLeft: '50px',
-    padding: '10px',
-    marginRight: '50px',
-    background: 'linear-gradient(144deg, #275d8ccf, #21466766)',
-    backdropFilter: 'blur(10px)',
+    height: "50px",
+    marginBottom: "10px",
+    marginLeft: "50px",
+    padding: "10px",
+    marginRight: "50px",
+    background: "linear-gradient(144deg, #275d8ccf, #21466766)",
+    backdropFilter: "blur(10px)",
     color: theme.palette.primary.contrastText,
-    borderRadius: '10px',
-    [theme.breakpoints.down('xs')]: {
-      marginLeft: '10px',
-    marginRight: '10px',
-  },
+    borderRadius: "10px",
+    [theme.breakpoints.down("xs")]: {
+      marginLeft: "10px",
+      marginRight: "10px",
+    },
   },
 
   avatar: {
-    width: '50px',
-    height: '50px',
+    width: "50px",
+    height: "50px",
   },
 
   OCContainer: {
-    marginTop: '50px',
-    marginRight: '50px',
- 
+    marginTop: "50px",
+    marginRight: "50px",
   },
   icons: {
-    color: '#3ed1b8'
+    color: "#2b7cff",
   },
 
   OClist: {
-    marginTop: '50px',
-  }
-  
+    marginTop: "50px",
+  },
 }));
 
 export default function OC() {
@@ -107,59 +103,6 @@ export default function OC() {
       </CardActions>
     </Card>
 
-    <Card className={classes.root} elevation='6' data-aos="zoom-in-up">
-      <CardHeader
-       
-        title= "Chamuthu Edirisuriya" 
-        subheader= "Main Organizer"
-      />
-      <CardActions disableSpacing >
-        <IconButton className={classes.icons} aria-label="Instagram" href="https://www.instagram.com/time_remnant_2.0/" target="_blank">
-          <Instagram />
-        </IconButton> 
-        <IconButton className={classes.icons} aria-label="Phone" href="https://wa.link/buph6h" target="_blank">
-          <Phone />
-        </IconButton> 
-      
-      </CardActions>
-    </Card>
-
-    <Card className={classes.root} elevation='6' data-aos="zoom-in-up">
-      <CardHeader
-       
-        title= "Thithiesha Mahabaduge" 
-        subheader= "Leaderboard Update Committee"
-      />
-      <CardActions disableSpacing >
-        <IconButton className={classes.icons} aria-label="Instagram" href="https://www.instagram.com/thithiesha/" target="_blank">
-          <Instagram />
-        </IconButton> 
-        <IconButton className={classes.icons} aria-label="Phone" href="https://wa.link/8zr3bq" target="_blank">
-          <Phone />
-        </IconButton> 
-      
-      </CardActions>
-    </Card>
-
-    <Card className={classes.root} elevation='6' data-aos="zoom-in-up">
-      <CardHeader
-       
-        title= "Nithika Senaweera " 
-        subheader= "Task Review committee"
-      />
-      <CardActions disableSpacing >
-       <IconButton className={classes.icons} aria-label="GitHub" href="https://github.com/ns200310" target="_blank">
-          <GitHub />
-        </IconButton>
-        <IconButton className={classes.icons} aria-label="Instagram" href="https://www.instagram.com/nithikase__/" target="_blank">
-          <Instagram />
-        </IconButton> 
-        <IconButton className={classes.icons} aria-label="Phone" href="https://wa.link/8h7ern" target="_blank">
-          <Phone />
-        </IconButton> 
-      
-      </CardActions>
-    </Card>
 
     <Card className={classes.root} elevation='6' data-aos="zoom-in-up">
       <CardHeader
