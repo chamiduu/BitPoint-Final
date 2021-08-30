@@ -9,7 +9,7 @@ import Tooltip from "@material-ui/core/Tooltip";
 import CodeIcon from "@material-ui/icons/Code";
 import BrushIcon from "@material-ui/icons/Brush";
 import FindInPageIcon from "@material-ui/icons/FindInPage";
-import taskDetails from "../../Data/tasks.json";
+import taskDetails from "../../Data/onlineTest.json";
 import theme from "../../theme";
 import { Link } from "react-router-dom";
 import Radio from "@material-ui/core/Radio";
@@ -112,14 +112,13 @@ const useStyles = makeStyles(() => ({
     },
   },
   filter: {
-    display: "none",
     background: "#fff",
     color: "#000",
     float: "right",
-    marginRight: "20%",
+    marginRight: "10%",
     padding: "50px",
     borderRadius: "15px",
-    width: "15%",
+    width: "20%",
     position: "sticky",
     right: "0",
     top: "100px",
@@ -222,26 +221,26 @@ export default function TaskCard() {
           </RadioGroup>
         </FormControl>
       </div>
-      {data.map((tasks, index) => (
+      {data.map((course, index) => (
         <Card className={classes.root} color="primary" key={index}>
           <img
             className={classes.img}
-            src="https://images.unsplash.com/photo-1542903660-eedba2cda473?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+            src={course.img}
             alt=""
           />
           <div className={classes.details}>
             <CardContent className={classes.content}>
               <Typography component="h5" variant="h5">
-                {tasks.taskName}
+                {course.taskName}
                 <span className={classes.catogery}>
-                  <Tooltip title={tasks.catogery}>
+                  <Tooltip title={course.catogery}>
                     <IconButton
-                      aria-label={tasks.catogery}
+                      aria-label={course.catogery}
                       className={classes.catIcon}
                     >
                       {(() => {
                         // eslint-disable-next-line
-                        switch (tasks.catogery) {
+                        switch (course.catogery) {
                           case "Code":
                             return <CodeIcon className={classes.codeIcon} />;
                           case "Design":
@@ -261,17 +260,17 @@ export default function TaskCard() {
                 color="textSecondary"
                 className={classes.cat}
               >
-                {tasks.shortDescription}
+                {course.shortDescription}
               </Typography>
               <hr color="#16548a"></hr>
-              <Typography variant="caption">Task ID: {tasks.id}</Typography>
+              <Typography variant="caption">Task ID: {course.id}</Typography>
             </CardContent>
 
             <div className={classes.controls}>
               <Button
                 variant="contained"
                 component={Link}
-                to={`/task/${tasks.id}`}
+                to={course.link}
                 className={classes.button}
               >
                 View Task
