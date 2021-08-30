@@ -3,6 +3,7 @@ import { useLocation } from "react-router-dom";
 import FooterContact from "./FooterContact";
 import { NavLink, useParams } from "react-router-dom";
 import "../../App.css";
+import { Info } from "@material-ui/icons";
 
 const Footer = () => {
   const location = useLocation();
@@ -14,7 +15,6 @@ const Footer = () => {
             <p className="answer">
             BITS is The First-Ever Task-Based Intra-School ICT competition, organized by the Ananda College ICT Society to provide a platform for our school's students to polish and improve their ICT knowledge in many fields of ICT
             </p>
-            < FooterContact />
           </div>
           <div className="footer-nav">
           <NavLink
@@ -24,7 +24,7 @@ const Footer = () => {
           activeStyle={{
             fontWeight: "bold",
             fontSize: "20px",
-            color: "#3ed1b8",
+            color: "#2b7cff",
           }}
         >
           Home
@@ -35,7 +35,7 @@ const Footer = () => {
           activeStyle={{
             fontWeight: "bold",
             fontSize: "20px",
-            color: "#3ed1b8",
+            color: "#2b7cff",
           }}
         >
           Tasks
@@ -46,7 +46,7 @@ const Footer = () => {
           activeStyle={{
             fontWeight: "bold",
             fontSize: "20px",
-            color: "#3ed1b8",
+            color: "#2b7cff",
           }}
         >
           Online Tests
@@ -57,20 +57,18 @@ const Footer = () => {
           activeStyle={{
             fontWeight: "bold",
             fontSize: "20px",
-            color: "#3ed1b8",
+            color: "#2b7cff",
           }}
         >
           Contact
         </NavLink> 
           </div>
-           <div className="footer-nav">
-           <div className="footer-nav">
-            <a href="https://acicts.github.io/bits-official/">BITS '18</a>
-            <a href="https://acicts.github.io/BITS19/">BITS '19</a>
-            <a href="https://acicts.github.io/BITS20/index.html">BITS '20</a>
-          </div>
-     </div>
-          <span id="copyrights">Copyright Reserved. ACICTS© 2021 </span>
+          <div className="footer-nav">
+            <Info color="secondary" />
+            <p>This website is made for YCS competition by Chamindu  Jayanath, Manula Thejan and Gothira Mendis.</p>
+            
+           </div>
+          <span id="copyrights">Copyright Reserved. BitPoint© 2021 </span>
         </div>
       </footer>
     )
