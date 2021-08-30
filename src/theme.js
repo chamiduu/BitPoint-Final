@@ -26,7 +26,7 @@ const theme = createMuiTheme({
   },
 
   typography: {
-    fontFamily: "'Titillium Web', sans-serif",
+    fontFamily: "'Open Sans', sans-serif",
   },
 });
 
