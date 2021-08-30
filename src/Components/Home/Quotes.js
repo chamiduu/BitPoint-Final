@@ -16,9 +16,9 @@ function Quotes() {
         <div className={classes.quoteContainer}>
           <Typography align="left" variant="h4">
             {" "}
-            <span style={{ color: "#3ed1b8", fontSize: "50px" }}>“</span> If it
+            <span style={{ color: "#001fff", fontSize: "50px" }}>“</span> If it
             wasn't for BITS, I could've missed so many wonderful opportunities{" "}
-            <span style={{ color: "#3ed1b8", fontSize: "50px" }}>”</span>{" "}
+            <span style={{ color: "#001fff", fontSize: "50px" }}>”</span>{" "}
           </Typography>
           <Typography align="left" variant="h6" style={{ marginLeft: "30px" }}>
             ~ Chamindu Jayanath
@@ -35,10 +35,10 @@ function Quotes() {
         <div className={classes.quoteContainer}>
           <Typography align="right" variant="h4">
             {" "}
-            <span style={{ color: "#3ed1b8", fontSize: "50px" }}>“</span> I
+            <span style={{ color: "#001fff", fontSize: "50px" }}>“</span> I
             think BITS will have a great impact on the students who like the
             technical side of our lives{" "}
-            <span style={{ color: "#3ed1b8", fontSize: "50px" }}>”</span>{" "}
+            <span style={{ color: "#001fff", fontSize: "50px" }}>”</span>{" "}
           </Typography>
           <Typography
             align="right"
@@ -59,10 +59,10 @@ function Quotes() {
         <div className={classes.quoteContainer}>
           <Typography align="left" variant="h4">
             {" "}
-            <span style={{ color: "#3ed1b8", fontSize: "50px" }}>“</span>
+            <span style={{ color: "#001fff", fontSize: "50px" }}>“</span>
             Enthusiasm and commitment made me a winner. That victory was my
             turning point. I also invite you to be a winner too.{" "}
-            <span style={{ color: "#3ed1b8", fontSize: "50px" }}>”</span>{" "}
+            <span style={{ color: "#001fff", fontSize: "50px" }}>”</span>{" "}
           </Typography>
           <Typography align="left" variant="h6" style={{ marginRight: "30px" }}>
             ~ Manula Thejan
