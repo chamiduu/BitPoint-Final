@@ -58,13 +58,12 @@ const useStyles = makeStyles((theme) => ({
   container: {
     padding: "0",
     height: "100vh",
-    color: "#fff",
+    color: "#000",
     marginBottom: "600px",
   },
 
   details: {
-    background: "linear-gradient(144deg, #275d8ccf, #21466766)",
-    backdropFilter: "blur(10px)",
+    background: "#edf3fc",
     maxWidth: "800px",
     borderRadius: "20px",
     width: "70%",
@@ -72,7 +71,7 @@ const useStyles = makeStyles((theme) => ({
     height: "min-content",
     margin: "auto",
     marginTop: "20px",
-    color: "#fff",
+    color: "#000",
     [theme.breakpoints.down("xs")]: {
       position: "relative",
       width: "95%",
@@ -82,7 +81,8 @@ const useStyles = makeStyles((theme) => ({
   },
   appbar: {
     width: "100%",
-    backgroundColor: "#06192e",
+    backgroundColor: "#2b7cff",
+    color: "#000",
     borderTopLeftRadius: "20px",
     borderTopRightRadius: "20px",
     borderBottomLeftRadius: "0px",
@@ -103,11 +103,11 @@ const useStyles = makeStyles((theme) => ({
   },
 
   text: {
-    color: "#fff",
+    color: "#000",
     marginBottom: "20px",
   },
   switcher: {
-    color: "#3ed1b8",
+    color: "#fff",
   },
   taskname: {
     width: "70%",
@@ -117,6 +117,7 @@ const useStyles = makeStyles((theme) => ({
     width: "80%",
     marginLeft: "10%",
     marginBottom: "50px",
+    color: "#fff",
   },
 }));
 
@@ -155,7 +156,7 @@ export default function FullWidthTabs() {
           <Typography variant="h4" className={classes.title} color="#ffffff">
             <Link to="/tasks">
               <Button
-                color="secondary"
+                color="primary"
                 variant="outlined"
                 style={{ marginRight: "50px", width: "100px" }}
               >
@@ -170,14 +171,14 @@ export default function FullWidthTabs() {
           <AppBar
             position="static"
             className={classes.appbar}
-            color="#0f7bc7"
+            color="#000"
             elevation="0"
           >
             <Tabs
               value={value}
               className={classes.switcher}
               onChange={handleChange}
-              indicatorColor="dfdfgdfdg"
+              indicatorColor="primary"
               variant="fullWidth"
               aria-label="full width tabs example"
             >
@@ -197,7 +198,7 @@ export default function FullWidthTabs() {
               <Typography className={classes.text}>
                 {details.description}
               </Typography>
-              <ul style={{ color: "#fefefe", marrginTop: "90px" }}>
+              <ul style={{ color: "#202020", marrginTop: "90px" }}>
                 {details.point1 !== "" && <li>{details.point1}</li>}
                 {details.point2 !== "" && <li>{details.point2}</li>}
                 {details.point3 !== "" && <li>{details.point3}</li>}
