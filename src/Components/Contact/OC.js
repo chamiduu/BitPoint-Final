@@ -76,7 +76,7 @@ export default function OC() {
       <CardHeader
        
         title= "Chamindu Jayanath" 
-        subheader= "Code Task Review Committee|Web Developer"
+        subheader= "Coding expert | Web Developer"
       />
       <CardActions disableSpacing >
        <IconButton className={classes.icons} aria-label="GitHub" href="https://github.com/chamindujs" target="_blank">
@@ -93,7 +93,7 @@ export default function OC() {
       <CardHeader
        
         title= "Manula Thejan" 
-        subheader= "Design & Explore Task Review Committee"
+        subheader= "Design Expert"
       />
       <CardActions disableSpacing >
         <IconButton className={classes.icons} aria-label="Phone" href="https://wa.link/hqa8o0" target="_blank">
@@ -108,7 +108,7 @@ export default function OC() {
       <CardHeader
        
         title= "Gothira Mendis" 
-        subheader= "Online Test Committee"
+        subheader= "Documentation expert"
       />
       <CardActions disableSpacing >
         <IconButton className={classes.icons} aria-label="Instagram" href="https://www.instagram.com/mendi.iiii/" target="_blank">
