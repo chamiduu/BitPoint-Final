@@ -19,7 +19,7 @@ function Categories() {
         display: "flex",
         alignItems: "center",
         [theme.breakpoints.down("xs")]: {
-          marginTop: "80vh",
+          marginTop: "10vh",
           height: "min-content",
         },
       },
