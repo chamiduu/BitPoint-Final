@@ -25,7 +25,7 @@ const useStyles = makeStyles(() => ({
     display: "flex",
     flexDirection: "row",
     transition: "all 0.3s ease",
-    width: "815px",
+    width: "835px",
     minHeight: "230px",
     marginLeft: "100px",
     marginTop: "20px",
@@ -69,6 +69,9 @@ const useStyles = makeStyles(() => ({
   img: {
     width: "250px",
     height: "250px",
+    alignSelf: "center",
+    marginLeft: "20px",
+    borderRadius: "15px",
     [theme.breakpoints.down("xs")]: {
       position: "relative",
       width: "90%",
@@ -234,7 +237,7 @@ export default function TaskCard() {
           <img
             className={classes.img}
             src={course.img}
-            alt=""
+            alt="loading..."
           />
           <div className={classes.details}>
             <CardContent className={classes.content}>
@@ -277,8 +280,8 @@ export default function TaskCard() {
             <div className={classes.controls}>
               <Button
                 variant="contained"
-                component={Link}
-                to={course.link}
+                target="_blank"
+                href={course.submit}
                 className={classes.button}
               >
                 View Course
