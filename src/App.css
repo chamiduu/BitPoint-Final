@@ -23,6 +23,8 @@ body {
   padding: 0;
 }
 
+
+
 iframe {
   border: none;
 }
@@ -228,6 +230,10 @@ span#copyrights {
     height: 100%;
     margin-top: 120px;
     width: 95%;
+  }
+
+  body {
+    
   }
 
   .footer-nav {
