@@ -8,66 +8,72 @@ import { Info } from "@material-ui/icons";
 const Footer = () => {
   const location = useLocation();
   return (
-    location.pathname !== "/tasks" && location.pathname !== "/courses" && location.pathname !== "/task/:id" && (
+    location.pathname !== "/tasks" &&
+    location.pathname !== "/courses" &&
+    location.pathname !== "/task/:id" && (
       <footer>
         <div className="content">
           <div className="about">
             <p className="answer">
-            BITS is The First-Ever Task-Based Intra-School ICT competition, organized by the Ananda College ICT Society to provide a platform for our school's students to polish and improve their ICT knowledge in many fields of ICT
+              BitPoint is a website which helps students to enhance their ICT
+              skills through hand-picked great courses and tasks. BitPoint is
+              available for students of all levels, anywhere and everywhere.
             </p>
           </div>
           <div className="footer-nav">
-          <NavLink
-          className="menuButton"
-          to="/"
-          exact
-          activeStyle={{
-            fontWeight: "bold",
-            fontSize: "20px",
-            color: "#2b7cff",
-          }}
-        >
-          Home
-        </NavLink>
-        <NavLink
-          className="menuButton"
-          to="/tasks"
-          activeStyle={{
-            fontWeight: "bold",
-            fontSize: "20px",
-            color: "#2b7cff",
-          }}
-        >
-          Tasks
-        </NavLink>
-        <NavLink
-          className="menuButton"
-          to="/onlinetest"
-          activeStyle={{
-            fontWeight: "bold",
-            fontSize: "20px",
-            color: "#2b7cff",
-          }}
-        >
-          Online Tests
-        </NavLink>
-        <NavLink
-          className="menuButton"
-          to="/contact"
-          activeStyle={{
-            fontWeight: "bold",
-            fontSize: "20px",
-            color: "#2b7cff",
-          }}
-        >
-          Contact
-        </NavLink> 
+            <NavLink
+              className="menuButton"
+              to="/"
+              exact
+              activeStyle={{
+                fontWeight: "bold",
+                fontSize: "20px",
+                color: "#2b7cff",
+              }}
+            >
+              Home
+            </NavLink>
+            <NavLink
+              className="menuButton"
+              to="/tasks"
+              activeStyle={{
+                fontWeight: "bold",
+                fontSize: "20px",
+                color: "#2b7cff",
+              }}
+            >
+              Tasks
+            </NavLink>
+            <NavLink
+              className="menuButton"
+              to="/onlinetest"
+              activeStyle={{
+                fontWeight: "bold",
+                fontSize: "20px",
+                color: "#2b7cff",
+              }}
+            >
+              Online Tests
+            </NavLink>
+            <NavLink
+              className="menuButton"
+              to="/contact"
+              activeStyle={{
+                fontWeight: "bold",
+                fontSize: "20px",
+                color: "#2b7cff",
+              }}
+            >
+              Contact
+            </NavLink>
           </div>
           <div className="footer-nav">
             <Info color="secondary" />
-            <p>This website is made for YCS competition by Chamindu  Jayanath, Manula Thejan and Gothira Mendis.</p>
-            
-           </div>
+            <p>
+              This website is made for YCS competition by Chamindu Jayanath,
+              Manula Thejan and Gothira Mendis.
+            </p>
+          </div>
           <span id="copyrights">Copyright Reserved. BitPoint© 2021 </span>
         </div>
       </footer>
