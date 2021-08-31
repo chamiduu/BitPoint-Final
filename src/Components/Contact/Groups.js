@@ -72,14 +72,13 @@ export default function OC() {
       <Card className={classes.root} elevation="6">
         <CardHeader
           title="BitPoint WhatsApp Group"
-          subheader="You can join the BITS 2021 WhatsApp group and chat with other participants and get help in if you need any"
+          subheader="You can join the BitPoint WhatsApp group and chat with other people and get help in if you need any"
           className={classes.desc}
         />
         <CardContent>
           <Typography variant="body2" component="p">
             Please be respectful to other members of the group and help each
-            other. It will benefit you when it comes to winning BITS 2021
-            competition
+            other.
           </Typography>
         </CardContent>
         <CardActions disableSpacing>
@@ -95,31 +94,7 @@ export default function OC() {
           </Button>
         </CardActions>
       </Card>
-      <Card className={classes.root} elevation="6">
-        <CardHeader
-          title="BitPoint Discord Channel"
-          subheader="You can join the BITS 2021 Discord channel on the ACICTS server and chat with other participants and get help in if you need any"
-        />
-        <CardContent>
-          <Typography variant="body2" component="p">
-            Please be respectful to other members of the group and help each
-            other. It will benefit you when it comes to winning BITS 2021
-            competition
-          </Typography>
-        </CardContent>
-        <CardActions disableSpacing>
-          <Button
-            variant="contained"
-            size="large"
-            target="_blank"
-            href="https://discord.gg/CBvuJ4zJ2b"
-            className={classes.button}
-            startIcon={<i class="fab fa-discord"></i>}
-          >
-            Join
-          </Button>
-        </CardActions>
-      </Card>
+
     </Grid>
   );
 }
