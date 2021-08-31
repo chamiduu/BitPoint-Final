@@ -35,6 +35,17 @@ const Footer = () => {
             </NavLink>
             <NavLink
               className="menuButton"
+              to="/courses"
+              activeStyle={{
+                fontWeight: "bold",
+                fontSize: "20px",
+                color: "#2b7cff",
+              }}
+            >
+              Courses
+            </NavLink>
+            <NavLink
+              className="menuButton"
               to="/tasks"
               activeStyle={{
                 fontWeight: "bold",
@@ -44,17 +55,7 @@ const Footer = () => {
             >
               Tasks
             </NavLink>
-            <NavLink
-              className="menuButton"
-              to="/onlinetest"
-              activeStyle={{
-                fontWeight: "bold",
-                fontSize: "20px",
-                color: "#2b7cff",
-              }}
-            >
-              Online Tests
-            </NavLink>
+
             <NavLink
               className="menuButton"
               to="/contact"
