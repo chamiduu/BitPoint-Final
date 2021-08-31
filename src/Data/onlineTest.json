@@ -196,6 +196,105 @@
     "catogery": "Design",
     "submit": "https://www.youtube.com/watch?v=seP6Yqx4BaY",
     "img": "https://www.lifewire.com/thmb/BqP4wOoBlcs6IKuNZZH2QrUY9WQ=/480x480/filters:no_upscale():max_bytes(150000):strip_icc()/_hero_SQ_4LW1081918-1-4b9a1247a2094a35a214bd337dc0aaa4.jpg"
+  },
+  {
+    "id": "CE01",
+    "index": 11,
+    "taskName": "Microsoft Word",
+    "shortDescription": "Microsoft Word is a word processor developed by Microsoft. It was first released on October 25, 1983, under the name Multi-Tool Word for Xenix systems",
+    "catogery": "Explore",
+    "submit": "https://www.youtube.com/watch?v=yV4i29Xo0iM",
+    "img": "https://1000logos.net/wp-content/uploads/2020/08/Microsoft-Word-Logo.png"
+  },
+
+  {
+    "id": "CE02",
+    "index": 12,
+    "taskName": "Create presentations with Powerpoint",
+    "shortDescription": "Microsoft PowerPoint is a presentation program, created by Robert Gaskins and Dennis Austin at a software company named Forethought, Inc. It was released on April 20, 1987, initially for Macintosh computers only. Microsoft acquired PowerPoint for about $14 million three months after it appeared",
+    "catogery": "Explore",
+    "submit": "https://www.youtube.com/watch?v=lxcHLxjkcXQ",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Microsoft_Office_PowerPoint_%282013–2019%29.svg/768px-Microsoft_Office_PowerPoint_%282013–2019%29.svg.png"
+  },
+
+  {
+    "id": "CE03",
+    "index": 13,
+    "taskName": "Microsoft Excel",
+    "shortDescription": "Microsoft Excel is a spreadsheet developed by Microsoft for Windows, macOS, Android and iOS. It features calculation, graphing tools, pivot tables, and a macro programming language called Visual Basic for Applications..",
+    "catogery": "Explore",
+    "submit": "https://www.youtube.com/watch?v=Vl0H-qTclOg",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019–present%29.svg/1200px-Microsoft_Office_Excel_%282019–present%29.svg.png"
+  },
+
+  {
+    "id": "CE04",
+    "index": 14,
+    "taskName": "How to write a Blog",
+    "shortDescription": "A blog is a discussion or informational website published on the World Wide Web consisting of discrete, often informal diary-style text entries (posts). Posts are typically displayed in reverse chronological order, so that the most recent post appears first, at the top of the web page.",
+    "catogery": "Explore",
+    "submit": "https://www.youtube.com/watch?v=-kOT39l0omU",
+    "img": "https://www.digitalagemarketinggroup.com/wp-content/uploads/2019/01/blog_diseno.jpg"
+  },
+
+  {
+    "id": "CE05",
+    "index": 15,
+    "taskName": "Writing product reviews",
+    "shortDescription": "Product reviews are the opinions or feedbacks of someone for a particular product. Many online businesses put up a review section on their website to allow customers to rate and review the product they purchased. A product review helps other users get a clear idea of the product before purchasing it",
+    "catogery": "Explore",
+    "submit": "https://www.youtube.com/watch?v=TzhQq-9_hlQ",
+    "img": "https://cdn.searchenginejournal.com/wp-content/uploads/2021/04/google-product-reviews-update-606f3672ab023.jpg"
+  },
+
+  {
+    "id": "CE06",
+    "index": 16,
+    "taskName": "A guide for writing Project Proposals",
+    "shortDescription": "The Project Proposal is the initial document used to define an internal or external project. ... The main objective of the project proposal is to get the client to buy into your services. Thus, project proposals are a great way to secure funding, win new clients, or convince executives to allocate resources to projects.",
+    "catogery": "Explore",
+    "submit": "https://www.youtube.com/watch?v=jsGBuu88WE0",
+    "img": "https://hygger.io/wp-content/uploads/2020/07/7.png"
+  },
+
+  {
+    "id": "CE07",
+    "index": 17,
+    "taskName": "Project management",
+    "shortDescription": "Project management is the process of leading the work of a team to achieve all project goals within the given constraints. This information is usually described in project documentation, created at the beginning of the development process.",
+    "catogery": "Explore",
+    "submit": "https://www.youtube.com/watch?v=ZKOL-rZ79gs",
+    "img": "https://d57439wlqx3vo.cloudfront.net/iblock/5d5/5d56f403033e04db25c5d3bb04e9639f/20f9a94927a2d8b4400129b2c12651b6.jpg"
+  },
+
+  {
+    "id": "CE08",
+    "index": 18,
+    "taskName": "How to write a good Résumé",
+    "shortDescription": "A résumé, sometimes spelled resume, is a document created and used by a person to present their background, skills, and accomplishments. Résumés can be used for a variety of reasons, but most often they are used to secure new employment",
+    "catogery": "Explore",
+    "submit": "https://www.youtube.com/watch?v=u75hUSShvnc",
+    "img": "https://i.insider.com/5ebab486e3c3fb7ddf591e52?width=700"
+  },
+
+  {
+    "id": "CE09",
+    "index": 19,
+    "taskName": "A guide to writing documentation for a software",
+    "shortDescription": "Software documentation is written text or illustration that accompanies computer software or is embedded in the source code. The documentation either explains how the software operates or how to use it, and may mean different things to people in different roles.",
+    "catogery": "Explore",
+    "submit": "https://www.youtube.com/watch?v=a4L9GhldTHo",
+    "img": "https://uploads.toptal.io/blog/image/125659/toptal-blog-image-1520844280940-5b60efe783a55c19d9057c5c3daa1f2d.png"
+  },
+
+  {
+    "id": "CE10",
+    "index": 20,
+    "taskName": "How to make a quiz in Google Forms ",
+    "shortDescription": "Google Forms is a survey administration software included as part of the free, web-based Google Docs Editors suite offered by Google",
+    "catogery": "Explore",
+    "submit": "https://www.youtube.com/watch?v=ct8cEB4yQ4M",
+    "img": "https://corkboardconcepts.com/wp-content/uploads/2021/04/GFLogo.png"
   }
 ]
     
