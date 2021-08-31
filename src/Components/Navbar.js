@@ -188,16 +188,6 @@ export default function Nav() {
 
         <NavLink
           className={mobileMenuButton}
-          to="/tasks"
-          activeStyle={{
-            fontWeight: "bold",
-            color: "#0363ff",
-          }}
-        >
-          Tasks
-        </NavLink>
-        <NavLink
-          className={mobileMenuButton}
           to="/courses"
           activeStyle={{
             fontWeight: "bold",
@@ -206,7 +196,18 @@ export default function Nav() {
         >
           Courses
         </NavLink>
-        
+
+        <NavLink
+          className={mobileMenuButton}
+          to="/tasks"
+          activeStyle={{
+            fontWeight: "bold",
+            color: "#0363ff",
+          }}
+        >
+          Tasks
+        </NavLink>
+
         <NavLink
           className={mobileMenuButton}
           to="/contact"
