@@ -101,101 +101,101 @@
   {
     "id": "CD01",
     "index": 11,
-    "taskName": "",
-    "shortDescription": "",
+    "taskName": "Adobe After Effects complete beginers tutorial",
+    "shortDescription": "Adobe After Effects is a digital visual effects, motion graphics, and compositing application developed by Adobe Systems and used in the post-production process of film making, video games and television production. Among other things, After Effects can be used for keying, tracking, compositing, and animation..",
     "catogery": "Design",
-    "submit": "",
-    "img": ""
+    "submit": "https://youtu.be/sbnh8-T2wn4",
+    "img": "https://s3.amazonaws.com/pbblogassets/uploads/2018/04/1st.00_08_47_29.Still002.png"
   },
 
   {
     "id": "CD02",
     "index": 12,
-    "taskName": "",
+    "taskName": "Making cartoons with Toonboom Harmony",
     "shortDescription": "",
     "catogery": "Design",
-    "submit": "",
-    "img": ""
+    "submit": "https://www.youtube.com/playlist?list=PLYRPVtOhCRnmvVriOTcS5LfRjBtzI4Jcy",
+    "img": "https://images.squarespace-cdn.com/content/v1/5a8d84c4b1ffb650b83336ca/1540469208019-6Z0S36OI77X39JICOC3Y/Screen+Shot+2018-10-25+at+13.05.36.png?format=1000w"
   },
 
   {
     "id": "CD03",
     "index": 13,
-    "taskName": "",
-    "shortDescription": "",
+    "taskName": "Let's create vector art!",
+    "shortDescription": "Adobe Illustrator is a vector graphics editor and design program developed and marketed by Adobe Inc. Originally designed for the Apple Macintosh, development of Adobe Illustrator began in 1985.",
     "catogery": "Design",
-    "submit": "",
-    "img": ""
+    "submit": "https://youtu.be/Ib8UBwu3yGA",
+    "img": "https://assets-global.website-files.com/5e469aaf314e562ff1146d3f/5fd68a277e0be11fefdad7d8_vectory-il-af-h.png"
   },
 
   {
     "id": "CD04",
     "index": 14,
-    "taskName": "",
-    "shortDescription": "",
+    "taskName": "Introduction to VFX with Nuke",
+    "shortDescription": "Nuke is a node-based digital compositing and visual effects application first developed by Digital Domain, and used for television and film post-production. Nuke is available for Microsoft Windows 7,8,10, OS X 10.9, Red Hat Enterprise Linux 5, and newer versions of these operating systems.",
     "catogery": "Design",
-    "submit": "",
-    "img": ""
+    "submit": "https://www.youtube.com/watch?v=y_GfzLbXgwE",
+    "img": "https://www.awn.com/sites/default/files/styles/original/public/image/featured/1033470-foundry-launches-nuke-and-hiero-110-power-next-generation-vfx-content.jpg?itok=Mqbgl3t0"
   },
 
   {
     "id": "CD05",
     "index": 15,
-    "taskName": "",
-    "shortDescription": "",
+    "taskName": "Photoshop Masterclass",
+    "shortDescription": "Adobe Photoshop is a raster graphics editor developed and published by Adobe Inc. for Windows and macOS. It was originally created in 1988 by Thomas and John Knoll. Since then, the software has become the industry standard not only in raster graphics editing, but in digital art as a whole.",
     "catogery": "Design",
-    "submit": "",
-    "img": ""
+    "submit": "https://youtube.com/playlist?list=PLhj1LUlrwN3BocKe8CkFZIIlnu6DLlGYP",
+    "img": "https://cdn.vox-cdn.com/thumbor/9UJ0v0i7VcRw9iqWP9exbek_SSo=/0x0:2732x2048/1200x800/filters:focal(1148x806:1584x1242)/cdn.vox-cdn.com/uploads/chorus_image/image/65664137/Image_1.0.jpeg"
   },
 
   {
     "id": "CD06",
     "index": 16,
-    "taskName": "",
-    "shortDescription": "",
+    "taskName": "A complete tutorial for Blender",
+    "shortDescription": "Blender is a free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D printed models, motion graphics, interactive 3D applications, virtual reality, and computer games",
     "catogery": "Design",
-    "submit": "",
-    "img": ""
+    "submit": "https://www.youtube.com/watch?v=NyJWoyVx_XI&list=PLjEaoINr3zgEq0u2MzVgAaHEBt--xLB6U",
+    "img": "https://www.blender.org/wp-content/uploads/2019/07/blender_render-1280x720.jpg?x90132"
   },
 
   {
     "id": "CD07",
     "index": 17,
-    "taskName": "",
-    "shortDescription": "",
+    "taskName": "Adobe Indesign for absoloute beginers ",
+    "shortDescription": "Adobe InDesign is a desktop publishing and page layout designing software application produced by Adobe Inc. It can be used to create works such as posters, flyers, brochures, magazines, newspapers, presentations, books and ebooks",
     "catogery": "Design",
-    "submit": "",
-    "img": ""
+    "submit": "https://youtu.be/RXRT3dHu6_o",
+    "img": "https://fileinfo.com/img/sw/ss/lg/adobe_indesign_9.jpg"
   },
 
   {
     "id": "CD08",
     "index": 18,
-    "taskName": "",
-    "shortDescription": "",
+    "taskName": "Fl studio crash course",
+    "shortDescription": "FL Studio is a digital audio workstation developed by the Belgian company Image-Line. FL Studio features a graphical user interface with a pattern-based music sequencer. The program is available in four different editions for Microsoft Windows and macOS.",
     "catogery": "Design",
-    "submit": "",
-    "img": ""
+    "submit": "https://www.youtube.com/watch?v=x5-GweOYXtk",
+    "img": "https://cdn.shopify.com/s/files/1/0553/6586/1576/products/SKU41894-3_1200x.jpg?v=1618331742"
   },
 
   {
     "id": "CD09",
     "index": 19,
-    "taskName": "",
-    "shortDescription": "",
+    "taskName": "Learn Cinema 4D from an expert",
+    "shortDescription": "Cinema 4D is a professional 3D modeling, animation, simulation and rendering software solution. Its fast, powerful, flexible and stable toolset make 3D workflows more accessible and efficient for design, motion graphics, VFX, AR/MR/VR, game development and all types of visualization professionals.",
     "catogery": "Design",
-    "submit": "",
-    "img": ""
+    "submit": "https://youtu.be/c3-dfUM2Xxg",
+    "img": "https://postperspective.com/wp-content/uploads/2019/07/Cinema4D-R21-RichNosworthy-Broadcast.jpg"
   },
 
   {
     "id": "CD10",
     "index": 20,
-    "taskName": "",
-    "shortDescription": "",
+    "taskName": "Master video editing with Premiere Pro ",
+    "shortDescription": "Adobe Premiere Pro is a timeline-based video editing software application developed by Adobe Inc. and published as part of the Adobe Creative Cloud licensing program. First launched in 2003, Adobe Premiere Pro is a successor of Adobe Premiere.",
     "catogery": "Design",
-    "submit": "",
-    "img": ""
+    "submit": "https://www.youtube.com/watch?v=seP6Yqx4BaY",
+    "img": "https://www.lifewire.com/thmb/BqP4wOoBlcs6IKuNZZH2QrUY9WQ=/480x480/filters:no_upscale():max_bytes(150000):strip_icc()/_hero_SQ_4LW1081918-1-4b9a1247a2094a35a214bd337dc0aaa4.jpg"
   }
 ]
     
