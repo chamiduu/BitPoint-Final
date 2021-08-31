@@ -8,7 +8,7 @@ import {
 import MenuIcon from "@material-ui/icons/Menu";
 import { NavLink } from "react-router-dom";
 import React, { useState, useEffect } from "react";
-import logoGIF from "../Img/BITS-logo-w.gif";
+import logoGIF from "../Img/logo.png";
 
 const useStyles = makeStyles(() => ({
   header: {
@@ -18,6 +18,9 @@ const useStyles = makeStyles(() => ({
     width: "90%",
     paddingRight: "79px",
     paddingLeft: "50px",
+    height: "100px",
+    display: "flex",
+    justifyContent: "center",
     color: "#000",
     position: "absolute",
     top: "20px",
@@ -29,10 +32,7 @@ const useStyles = makeStyles(() => ({
   },
 
   logo: {
-    fontFamily: "Work Sans, sans-serif",
-    fontWeight: 600,
-    color: "#183d5d",
-    textAlign: "left",
+    width: "50px",
   },
   logoMobile: {},
   menuButton: {
@@ -222,7 +222,7 @@ export default function Nav() {
   };
 
   const femmecubatorLogo = (
-    <NavLink to="/"><img src={logoGIF} alt="logo" style={{ height: "100px" }}></img></NavLink> 
+    <NavLink to="/"><img src={logoGIF} alt="logo" style={{ height: "55px", width: "150px" }}></img></NavLink> 
   );
 
   const getMenuButtons = () => {
@@ -248,17 +248,7 @@ export default function Nav() {
         >
           Home
         </NavLink>
-        <NavLink
-          className={menuButton}
-          to="/tasks"
-          activeStyle={{
-            fontWeight: "bold",
-            fontSize: "20px",
-            color: "#0363ff",
-          }}
-        >
-          Tasks
-        </NavLink>
+
         <NavLink
           className={menuButton}
           to="/courses"
@@ -270,7 +260,19 @@ export default function Nav() {
         >
           Courses
         </NavLink>
-      
+
+        <NavLink
+          className={menuButton}
+          to="/tasks"
+          activeStyle={{
+            fontWeight: "bold",
+            fontSize: "20px",
+            color: "#0363ff",
+          }}
+        >
+          Tasks
+        </NavLink>
+
         <NavLink
           className={menuButton}
           to="/contact"
