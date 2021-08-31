@@ -216,14 +216,14 @@ export default function FullWidthTabs() {
                 Complete the below form and hit the “SUBMIT” button and your
                 task will be reviewed by the mentors in around 48 hours and you
                 will get a confirmation email. DO NOT QUESTION ABOUT YOUR
-                SUBMITTIONS UNTIL 48 HOURS HAVE PASSED.
+                SUBMITTIONS UNTIL 24 HOURS HAVE PASSED.
                 <ul>
                   <li>
                     {" "}
                     <b>
                       Plagiarism is strictly prohibited. If you cheat by using
                       other people's work your task submission will be
-                      disqualified. This is the one and only warning!
+                      disqualified.
                     </b>{" "}
                   </li>
                   <li>
@@ -232,22 +232,12 @@ export default function FullWidthTabs() {
                   </li>
                   <li>You can use both Sinhala and English languages.</li>
                   <li>
-                    Students with the highest marks for the competition will be
-                    the winners.
-                  </li>
-                  <li>
-                    Not only completing the task will add you points, but also
-                    quality of the task, final production, how you work with
-                    your mentors and lowest number of tasks rejections will add
-                    you more points.
-                  </li>
-                  <li>
                     Google is only a reference, do not copy other products and
                     send us.
                   </li>
                   <li>
                     Do not spam in Discord channel, WhatsApp group or via
-                    emails. We will ban you from the competition.
+                    emails.
                   </li>
                 </ul>
               </Typography>
