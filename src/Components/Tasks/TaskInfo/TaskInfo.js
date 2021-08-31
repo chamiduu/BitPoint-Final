@@ -194,21 +194,21 @@ export default function FullWidthTabs() {
             onChangeIndex={handleChangeIndex}
           >
             <TabPanel value={value} index={0} dir={theme.direction}>
-            <Linkify componentDecorator={hrefDecorator}>
-              <Typography className={classes.text}>
-                {details.description}
-              </Typography>
-              <ul style={{ color: "#202020", marrginTop: "90px" }}>
-                {details.point1 !== "" && <li>{details.point1}</li>}
-                {details.point2 !== "" && <li>{details.point2}</li>}
-                {details.point3 !== "" && <li>{details.point3}</li>}
-                {details.point4 !== "" && <li>{details.point4}</li>}
-                {details.point5 !== "" && <li>{details.point5}</li>}
-                {details.point6 !== "" && <li>{details.point6}</li>}
-                {details.point7 !== "" && <li>{details.point7}</li>}
-              </ul>
-              <br></br>
-            </Linkify>
+              <Linkify componentDecorator={hrefDecorator}>
+                <Typography className={classes.text}>
+                  {details.description}
+                </Typography>
+                <ul style={{ color: "#202020", marrginTop: "90px" }}>
+                  {details.point1 !== "" && <li>{details.point1}</li>}
+                  {details.point2 !== "" && <li>{details.point2}</li>}
+                  {details.point3 !== "" && <li>{details.point3}</li>}
+                  {details.point4 !== "" && <li>{details.point4}</li>}
+                  {details.point5 !== "" && <li>{details.point5}</li>}
+                  {details.point6 !== "" && <li>{details.point6}</li>}
+                  {details.point7 !== "" && <li>{details.point7}</li>}
+                </ul>
+                <br></br>
+              </Linkify>
             </TabPanel>
             <TabPanel value={value} index={1} dir={theme.direction}>
               {" "}
@@ -244,7 +244,7 @@ export default function FullWidthTabs() {
               <br></br>
               <br></br>
               <Button
-                href={details.submit}
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfHwPdUXnqzGp0TQaPl_a_Jub7fbAZ9AD71r-34LvTbTpVj5A/viewform?usp=sf_link"
                 className={classes.form}
                 color="secondary"
                 target="_blank"
