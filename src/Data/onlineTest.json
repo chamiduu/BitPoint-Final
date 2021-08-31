@@ -1,12 +1,201 @@
 [
-    { "id": "CA01",
-      "index": 82,
-      "taskName": "Clone a Website",
-      "shortDescription": "Create a replica of a popular website or an app",
-      "catogery": "Code",
-      "submit": "https://forms.gle/4TW1uqq21E3iJmak8",
-      "img":"You can use any programming language/technologies to complete this task."
-  }
+  {
+    "id": "CC01",
+    "index": 1,
+    "taskName": "Introduction to web development",
+    "shortDescription": "HTML (the Hypertext Markup Language) and CSS (Cascading Style Sheets) are two of the core technologies for building Web pages. HTML provides the structure of the page, CSS the (visual and aural) layout, for a variety of devices.",
+    "catogery": "Code",
+    "submit": "https://www.youtube.com/watch?v=LGQuIIv2RVA&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-",
+    "img": "https://www.lambdatest.com/blog/wp-content/uploads/2018/11/JPG-2.jpg"
+  },
+  {
+    "id": "CC02",
+    "index": 2,
+    "taskName": "Javascript full tutorial",
+    "shortDescription": "JavaScript is commonly used for creating web pages. It allows us to add dynamic behavior to the webpage and add special effects to the webpage. On websites, it is mainly used for validation purposes. JavaScript helps us to execute complex actions and also enables the interaction of websites with visitors.",
+    "catogery": "Code",
+    "submit": "https://www.youtube.com/watch?v=iWOYAxlnaww&list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png"
+  },
 
+  {
+    "id": "CC03",
+    "index": 3,
+    "taskName": "Advanced front-end web development (ReactJS)",
+    "shortDescription": "The core objective of ReactJS is providing the best possible rendering performance. Its strength comes from the focus on individual components. Instead of working on the entire web app, ReactJS allows a developer to break down the complex UI into simpler components.",
+    "catogery": "Code",
+    "submit": "https://www.youtube.com/watch?v=j942wKiXFu8&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d",
+    "img": "https://miro.medium.com/max/1400/1*CeuWv9fCjD1uTiTuKytnBQ.png"
+  },
+
+  {
+    "id": "CC04",
+    "index": 4,
+    "taskName": "Into the world of Computer Science",
+    "shortDescription": "Computer Science is the study of computers and computational systems. Unlike electrical and computer engineers, computer scientists deal mostly with software and software systems; this includes their theory, design, development, and application.",
+    "catogery": "Code",
+    "submit": "https://cs50.harvard.edu/",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Computer-science-education.jpg/250px-Computer-science-education.jpg"
+  },
+
+  {
+    "id": "CC05",
+    "index": 5,
+    "taskName": "Machine learning and AI",
+    "shortDescription": "Machine learning is the science of getting computers to act without being explicitly programmed. In the past decade, machine learning has given us self-driving cars, practical speech recognition, effective web search, and a vastly improved understanding of the human genome. ",
+    "catogery": "Code",
+    "submit": "https://www.coursera.org/learn/machine-learning",
+    "img": "https://www.profesionalreview.com/wp-content/uploads/2019/08/Machine-Learning-5.jpeg"
+  },
+
+  {
+    "id": "CC06",
+    "index": 6,
+    "taskName": "Android app development (Java + Kotlin)",
+    "shortDescription": "Android software development is the process by which applications are created for devices running the Android operating system. Google states that Android apps can be written using Kotlin, Java, and C++ languages using the Android software development kit, while using other languages is also possible.",
+    "catogery": "Code",
+    "submit": "https://www.youtube.com/watch?v=fis26HvvDII&t=39151s",
+    "img": "https://www.appschopper.com/blog/wp-content/uploads/2021/01/Android-App-Development-Frameworks-AppsChopper.png"
+  },
+
+  {
+    "id": "CC07",
+    "index": 7,
+    "taskName": "iOS app development (Swift)",
+    "shortDescription": "iOS application development is the process of making mobile applications for Apple hardware, including iPhone, iPad and iPod Touch. The software is written in the Swift programming language or Objective-C and then deployed to the App Store for users to download.",
+    "catogery": "Code",
+    "submit": "https://www.youtube.com/watch?v=09TeUXjzpKs",
+    "img": "https://berlin-onlineagentur.com/application/webroot/images/iphone-application-development-technource.png"
+  },
+
+  {
+    "id": "CC08",
+    "index": 8,
+    "taskName": "Arduino",
+    "shortDescription": "Arduino is an open-source hardware and software company, project and user community that designs and manufactures single-board microcontrollers and microcontroller kits for building digital devices.",
+    "catogery": "Code",
+    "submit": "https://www.youtube.com/watch?v=fJWR7dBuc18&list=PLGs0VKk2DiYw-L-RibttcvK-WBZm8WLEP",
+    "img": "https://cdn.pixabay.com/photo/2017/03/23/12/32/arduino-2168193_960_720.png"
+  },
+
+  {
+    "id": "CC09",
+    "index": 9,
+    "taskName": "C++ Programming",
+    "shortDescription": "C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or C with Classes.",
+    "catogery": "Code",
+    "submit": "https://www.youtube.com/watch?v=vLnPwxZdW4Y&t=24s",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg"
+  },
+
+  {
+    "id": "CC10",
+    "index": 10,
+    "taskName": "Introduction to Linux",
+    "shortDescription": "Linux is a family of open-source Unix-like operating systems based on the Linux kernel, an operating system kernel first released on September 17, 1991, by Linus Torvalds. Linux is typically packaged in a Linux distribution.",
+    "catogery": "Code",
+    "submit": "https://www.youtube.com/watch?v=n_2jPbQornY",
+    "img": "https://www.redhat.com/cms/managed-files/styles/xlarge/s3/tux-327x360.png?itok=puszajU_"
+  },
+
+  {
+    "id": "CD01",
+    "index": 11,
+    "taskName": "",
+    "shortDescription": "",
+    "catogery": "Design",
+    "submit": "",
+    "img": ""
+  },
+
+  {
+    "id": "CD02",
+    "index": 12,
+    "taskName": "",
+    "shortDescription": "",
+    "catogery": "Design",
+    "submit": "",
+    "img": ""
+  },
+
+  {
+    "id": "CD03",
+    "index": 13,
+    "taskName": "",
+    "shortDescription": "",
+    "catogery": "Design",
+    "submit": "",
+    "img": ""
+  },
+
+  {
+    "id": "CD04",
+    "index": 14,
+    "taskName": "",
+    "shortDescription": "",
+    "catogery": "Design",
+    "submit": "",
+    "img": ""
+  },
+
+  {
+    "id": "CD05",
+    "index": 15,
+    "taskName": "",
+    "shortDescription": "",
+    "catogery": "Design",
+    "submit": "",
+    "img": ""
+  },
+
+  {
+    "id": "CD06",
+    "index": 16,
+    "taskName": "",
+    "shortDescription": "",
+    "catogery": "Design",
+    "submit": "",
+    "img": ""
+  },
+
+  {
+    "id": "CD07",
+    "index": 17,
+    "taskName": "",
+    "shortDescription": "",
+    "catogery": "Design",
+    "submit": "",
+    "img": ""
+  },
+
+  {
+    "id": "CD08",
+    "index": 18,
+    "taskName": "",
+    "shortDescription": "",
+    "catogery": "Design",
+    "submit": "",
+    "img": ""
+  },
+
+  {
+    "id": "CD09",
+    "index": 19,
+    "taskName": "",
+    "shortDescription": "",
+    "catogery": "Design",
+    "submit": "",
+    "img": ""
+  },
+
+  {
+    "id": "CD10",
+    "index": 20,
+    "taskName": "",
+    "shortDescription": "",
+    "catogery": "Design",
+    "submit": "",
+    "img": ""
+  }
 ]
     
