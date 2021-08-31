@@ -16,28 +16,21 @@ function Quotes() {
         <div className={classes.quoteContainer}>
           <Typography align="left" variant="h4">
             {" "}
-            <span style={{ color: "#001fff", fontSize: "50px" }}>“</span> If it
-            wasn't for BITS, I could've missed so many wonderful opportunities{" "}
+            <span style={{ color: "#001fff", fontSize: "50px" }}>“</span> I am
+            always ready to learn although I do not always like being taught{" "}
             <span style={{ color: "#001fff", fontSize: "50px" }}>”</span>{" "}
           </Typography>
           <Typography align="left" variant="h6" style={{ marginLeft: "30px" }}>
-            ~ Chamindu Jayanath
-          </Typography>
-          <Typography
-            align="left"
-            variant="h6"
-            style={{ marginLeft: "45px", color: "#ffffffb3" }}
-          >
-            Developer of BitPoint
+            ~ Winston Churchill
           </Typography>
         </div>
 
         <div className={classes.quoteContainer}>
           <Typography align="right" variant="h4">
             {" "}
-            <span style={{ color: "#001fff", fontSize: "50px" }}>“</span> I
-            think BITS will have a great impact on the students who like the
-            technical side of our lives{" "}
+            <span style={{ color: "#001fff", fontSize: "50px" }}>“</span> I One
+            learns from books and example only that certain things can be done.
+            Actual learning requires that you do those things{" "}
             <span style={{ color: "#001fff", fontSize: "50px" }}>”</span>{" "}
           </Typography>
           <Typography
@@ -45,14 +38,7 @@ function Quotes() {
             variant="h6"
             style={{ marginRight: "30px" }}
           >
-            ~ Gothira Mendis
-          </Typography>
-          <Typography
-            align="right"
-            variant="h6"
-            style={{ marginRight: "45px", color: "#ffffffb3" }}
-          >
-            President of ACICTS
+            ~ Frank Herbert
           </Typography>
         </div>
 
@@ -60,19 +46,12 @@ function Quotes() {
           <Typography align="left" variant="h4">
             {" "}
             <span style={{ color: "#001fff", fontSize: "50px" }}>“</span>
-            Enthusiasm and commitment made me a winner. That victory was my
-            turning point. I also invite you to be a winner too.{" "}
+            Study hard what interests you the most in the most undisciplined,
+            irreverent and original manner possible{" "}
             <span style={{ color: "#001fff", fontSize: "50px" }}>”</span>{" "}
           </Typography>
           <Typography align="left" variant="h6" style={{ marginRight: "30px" }}>
-            ~ Manula Thejan
-          </Typography>
-          <Typography
-            align="left"
-            variant="h6"
-            style={{ marginRight: "45px", color: "#ffffffb3" }}
-          >
-            Manula Thejan
+            ~ Richard Feynman
           </Typography>
         </div>
       </div>
