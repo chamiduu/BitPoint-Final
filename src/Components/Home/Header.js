@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Grid, Typography, Button } from '@material-ui/core'; 
 import theme from '../../theme'  
 import {ReactComponent as Logo} from '../../Img/hero.svg';
+import { Link } from 'react-router-dom';
 
 
 export default function Header() {
@@ -95,25 +96,27 @@ export default function Header() {
               style={{ marginBottom: "50px", color: "#91b8ff" }}
             >
               <span style={{ color: "#fff" }}>
-                The First-Ever Task-Based Intra-School ICT competition,
-              </span>{" "}
-              organized by the Ananda College ICT Society to provide a platform
-              for our school's students to polish and improve their ICT
-              knowledge in many fields of ICT
+                BitPoint is a website which helps students to enhance their ICT
+                skills
+              </span> { " "}
+              through hand-picked great courses and tasks. BitPoint is available
+              for students of all levels, anywhere and everywhere.
             </Typography>
-            <Button
-              className={classes.buttonI}
-              variant="outlined"
-              target="_blank"
-              color="secondary"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfJIXV6-3WYIpqv92mHcVcDfZpBnWPEizbTOJ18g61oOSL8gA/viewform"
-            >
-              Register Now
-            </Button>
+            <Link to="/courses">
+              <Button
+                className={classes.buttonI}
+                variant="outlined"
+                target="_blank"
+                color="secondary"
+              >
+                view courses
+              </Button>
+            </Link>
+
             <Button
               className={classes.buttonII}
               variant="contained"
-              href="#catt"
+              href="#info"
               color="secondary"
               style={{ marginLeft: "20px" }}
             >
