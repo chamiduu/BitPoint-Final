@@ -86,7 +86,7 @@ export default function OC() {
             variant="contained"
             size="large"
             target="_blank"
-            href="https://chat.whatsapp.com/H7mwjG6EMidKfu8fwuOnXN"
+            href="https://chat.whatsapp.com/ENBhmg4KNiG8wBDmAPghjX"
             className={classes.button}
             startIcon={<WhatsAppIcon />}
           >
@@ -94,7 +94,6 @@ export default function OC() {
           </Button>
         </CardActions>
       </Card>
-
     </Grid>
   );
 }
