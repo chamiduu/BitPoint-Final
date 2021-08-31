@@ -106,7 +106,7 @@ export default function Features() {
           />
           <CardHeader
             title="Hand-picked Courses"
-            subheader="Code Task Review Committee|Web Developer"
+            subheader="We are very experienced in the area of learning and teaching computer related subjects. Hence we can help you with the best possible lessons for you."
             className={classes.features}
           />
         </Card>
@@ -118,7 +118,7 @@ export default function Features() {
           />
           <CardHeader
             title="Mentoring"
-            subheader="Design & Explore Task Review Committee"
+            subheader="You can get in touch with our mentors by going to the contact tab. We will get back to you within 24 hours. You can clear out any problems or issues you have by talking to us."
             className={classes.features}
           />
         </Card>
@@ -130,7 +130,7 @@ export default function Features() {
           />
           <CardHeader
             title="Great Community"
-            subheader="Online Test CommitteeOnline Test CommitteeOnline Test CommitteeOnline Test Committee"
+            subheader="The small but growing community of BitPoint can help each other and share knowledge."
             className={classes.features}
           />
         </Card>
