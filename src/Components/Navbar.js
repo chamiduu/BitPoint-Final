@@ -248,6 +248,7 @@ export default function Nav() {
           justifyContent: "space-between",
           alignItems: "center",
           width: "600px",
+          fontSize: "21px",
         }}
       >
         <NavLink
@@ -258,6 +259,7 @@ export default function Nav() {
             fontWeight: "bold",
             fontSize: "20px",
             color: "#0363ff",
+            fontSize: "23px",
           }}
         >
           Home
@@ -270,6 +272,7 @@ export default function Nav() {
             fontWeight: "bold",
             fontSize: "20px",
             color: "#0363ff",
+            fontSize: "23px",
           }}
         >
           Courses
@@ -282,6 +285,7 @@ export default function Nav() {
             fontWeight: "bold",
             fontSize: "20px",
             color: "#0363ff",
+            fontSize: "23px",
           }}
         >
           Tasks
@@ -294,6 +298,7 @@ export default function Nav() {
             fontWeight: "bold",
             fontSize: "20px",
             color: "#0363ff",
+            fontSize: "23px",
           }}
         >
           Contact

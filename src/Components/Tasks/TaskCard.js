@@ -46,6 +46,8 @@ const useStyles = makeStyles(() => ({
     },
     "&:hover": {
       transform: "scale(1.03)",
+      background: "#d3e2f8",
+      borderRadius: "12px",
     },
   },
   details: {
@@ -173,7 +175,15 @@ export default function TaskCard() {
     <div className="eee">
       <div className={classes.filter}>
         <FormControl component="fieldset">
-          <FormLabel component="legend" style={{ color: "black" }}>
+          <FormLabel
+            component="legend"
+            style={{
+              color: "black",
+              paddingBottom: "12px",
+              fontWeight: "650",
+              fontSize: "18px",
+            }}
+          >
             Filter Tasks
           </FormLabel>
           <RadioGroup
