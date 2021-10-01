@@ -86,7 +86,6 @@ export default function Nav() {
     drawerOpen: false,
   });
 
-
   const { mobileView, drawerOpen } = state;
 
   useEffect(() => {
@@ -149,10 +148,12 @@ export default function Nav() {
               to="/"
               alt="logo"
               style={{
-                height: "100px",
-                width: "100px",
+                height: "150px",
+                width: "150px",
                 marginLeft: "auto",
                 marginRight: "auto",
+                objectFit: "contain",
+                paddingTop: "10px",
               }}
             ></img>
             {getDrawerChoices()}
@@ -172,6 +173,8 @@ export default function Nav() {
           flexDirection: "column",
           justifyContent: "space-between",
           height: "200px",
+          fontSize: "21px",
+          marginBottom: "70px",
         }}
       >
         <NavLink
@@ -223,7 +226,17 @@ export default function Nav() {
   };
 
   const femmecubatorLogo = (
-    <NavLink to="/"><img src={logoGIF} alt="logo" style={{ height: "55px", width: "150px" }}></img></NavLink> 
+    <NavLink to="/">
+      <img
+        src={logoGIF}
+        alt="logo"
+        style={{
+          height: "70px",
+          width: "150px",
+          objectFit: "contain",
+        }}
+      ></img>
+    </NavLink>
   );
 
   const getMenuButtons = () => {
