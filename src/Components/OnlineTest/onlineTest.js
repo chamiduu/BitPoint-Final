@@ -69,6 +69,7 @@ const useStyles = makeStyles(() => ({
   img: {
     width: "250px",
     height: "250px",
+    objectFit: "contain",
     alignSelf: "center",
     marginLeft: "20px",
     borderRadius: "15px",
@@ -111,7 +112,7 @@ const useStyles = makeStyles(() => ({
     bottom: "20px",
     right: "20px",
     [theme.breakpoints.down("xs")]: {
-      bottom: "0"
+      bottom: "0",
     },
   },
   filter: {
@@ -170,10 +171,7 @@ export default function TaskCard() {
   const [value, setValue] = React.useState("All");
   const [data, setData] = useState(taskDetails);
 
-  //search for article name 
-
-
-
+  //search for article name
 
   useEffect(() => {
     Aos.init({ duration: 500 });
@@ -193,7 +191,6 @@ export default function TaskCard() {
   };
 
   //search blog items
-  
 
   return (
     <div className="eee">
@@ -234,11 +231,7 @@ export default function TaskCard() {
       </div>
       {data.map((course, index) => (
         <Card className={classes.root} color="primary" key={index}>
-          <img
-            className={classes.img}
-            src={course.img}
-            alt="loading..."
-          />
+          <img className={classes.img} src={course.img} alt="loading..." />
           <div className={classes.details}>
             <CardContent className={classes.content}>
               <Typography component="h5" variant="h5">
