@@ -16,7 +16,7 @@ const useStyles = makeStyles(() => ({
 
     backgroundSize: "cover",
     backgroundAttachment: "fixed",
-    height: "100vh",
+    height: "auto",
     margin: "auto",
         display: "flex",
     flexDirection: "column",

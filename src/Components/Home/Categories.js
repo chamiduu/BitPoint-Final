@@ -73,7 +73,7 @@ function Categories() {
       subContent: {
         height: "230px",
         position: "relative",
-        width: "320px",
+        width: "300px",
         margin: "auto",
       },
       subText: {
