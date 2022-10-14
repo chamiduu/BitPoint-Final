@@ -25,7 +25,7 @@ const useStyles = makeStyles(() => ({
     display: "flex",
     flexDirection: "row",
     transition: "all 0.3s ease",
-    width: "835px",
+    width: "750px",
     minHeight: "230px",
     marginLeft: "100px",
     marginTop: "20px",
@@ -53,6 +53,7 @@ const useStyles = makeStyles(() => ({
   },
   details: {
     display: "flex",
+    flex:1,
     flexDirection: "column",
     padding: "10px",
   },
@@ -101,6 +102,7 @@ const useStyles = makeStyles(() => ({
 
   cat: {
     color: "#151515",
+    width: "100%"
   },
 
   catIcon: {
@@ -197,7 +199,7 @@ export default function TaskCard() {
       <div className={classes.filter}>
         <FormControl component="fieldset">
           <FormLabel component="legend" style={{ color: "black" }}>
-            Filter Tasks
+            Filter Courses
           </FormLabel>
           <RadioGroup
             className={classes.filterOptions}
@@ -267,7 +269,7 @@ export default function TaskCard() {
                 {course.shortDescription}
               </Typography>
               <hr color="#16548a"></hr>
-              <Typography variant="caption">Task ID: {course.id}</Typography>
+              <Typography variant="caption">Course ID: {course.id}</Typography>
             </CardContent>
 
             <div className={classes.controls}>
